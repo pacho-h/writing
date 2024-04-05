@@ -56,7 +56,7 @@ Django는 PostgreSQL을 사용하면 psycopg 또는 psycopg2 module을 사용하
 
 ```shell
 poetry add psycopg[binary]
-# pool도 설치하려면 psycopg[binary,poll]
+# pool도 설치하려면 psycopg[binary,pool]
 ```
 
 `pyproject.toml`
