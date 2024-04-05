@@ -33,7 +33,7 @@ DATABASES = {
 }
 ```
 
-`INSTALLED_APPS` 리스트는 Django 프로젝트 생성 기본값 그대로 사용하고 makemigrations 커맨드를 실행했는데 다음과 같은 오류가 발생했다.
+`INSTALLED_APPS` 리스트는 Django 프로젝트 생성 기본값 그대로 사용하고 migrate 커맨드를 실행했는데 다음과 같은 오류가 발생했다.
 
 ```shell
 Traceback (most recent call last):
